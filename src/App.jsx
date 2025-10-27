@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:8000/api/tasks/"; // ✅ Django backend
-
+//const API_URL = "http://127.0.0.1:8000/api/tasks/"; // ✅ Django backend
+const API_URL = "http://35.154.153.163//api/tasks/";
 export default function App() {
   const [tasks, setTasks] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
